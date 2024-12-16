@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: test.GoogleSearchTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.346 s <<< FAILURE! - in test.GoogleSearchTest
+launch(test.GoogleSearchTest)  Time elapsed: 5.346 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 121
+Current browser version is 120.0.6099.225 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'FRLFK0635009461', ip: '192.168.1.183'
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at test.GoogleSearchTest.launch(GoogleSearchTest.java:18)
+
