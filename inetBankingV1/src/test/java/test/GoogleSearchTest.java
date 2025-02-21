@@ -27,7 +27,6 @@ public class GoogleSearchTest {
 		
 		 //Revoir 
 		// GoogleSearchPage.button_search(driver);
-		 //test de message 
 		 
 	}
 
